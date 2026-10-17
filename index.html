@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MARS</title>
+    <meta
+      name="description"
+      content="MARS 主页，展示基础 AI 模型、计算机视觉、医学影像分析、团队成员、代表成果与招生信息。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="返回首页">
+        <span class="brand-mark">MARS</span>
+        <span>
+          <strong>MARS</strong>
+          <small>Medical AI ReSearch Group</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="打开导航">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="research.html">研究方向</a>
+        <a href="people.html">团队</a>
+        <a href="publications.html">论文成果</a>
+        <a href="projects.html">科研项目</a>
+        <a href="news.html">新闻动态</a>
+        <a href="join.html">加入/联系</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-medai-lab.png"
+          alt="医学影像、神经网络与临床数据可视化构成的科研主页横幅图"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">广西医科大学 · Medical AI ReSearch Group</p>
+          <h1 id="hero-title">MARS</h1>
+          <p class="hero-copy">
+            聚焦人工智能辅助医学成像、医学影像智能分析与临床场景转化，探索可信、高效、可落地的智能诊疗方法。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="research.html">了解研究</a>
+            <a class="button button-secondary" href="join.html">加入课题组</a>
+          </div>
+          <div class="hero-slider-viewport" aria-label="重点动态" data-news-marquee>
+            <button class="hero-carousel-control hero-carousel-control-prev" type="button" aria-label="查看上一条新闻" data-news-prev>‹</button>
+            <div class="hero-slider">
+              <a class="slide-card" href="news.html">
+                <img src="assets/group-photo.jpg" alt="课题组成员参加医学图像计算青年研讨会合影" />
+                <span class="slide-date">2026</span>
+                <strong>MARS at MICS 2026</strong>
+                <em>Learn More</em>
+              </a>
+              <a class="slide-card" href="https://edu.csdn.net/huiyiCourse/detail/1102" target="_blank" rel="noreferrer">
+                <img src="assets/deepeye-talk-poster.png" alt="医学影像 AI 专题课程海报" />
+                <span class="slide-date">2025</span>
+                <strong>医学影像 AI 专题课程页面</strong>
+                <em>Learn More</em>
+              </a>
+              <a class="slide-card" href="assets/xinqing-certificate-preview.jpg" target="_blank" rel="noreferrer">
+                <img src="assets/xinqing-certificate-preview.jpg" alt="第十一届全国大学生生物医学工程创新设计竞赛二等奖证书" />
+                <span class="slide-date">Award</span>
+                <strong>第十一届全国大学生生物医学工程创新设计竞赛二等奖</strong>
+                <em>Learn More</em>
+              </a>
+            </div>
+            <button class="hero-carousel-control hero-carousel-control-next" type="button" aria-label="查看下一条新闻" data-news-next>›</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="课题组概览">
+        <div class="stat">
+          <strong>2024</strong>
+          <span>Founded</span>
+        </div>
+        <div class="stat">
+          <strong>19</strong>
+          <span>Publications</span>
+        </div>
+        <div class="stat">
+          <strong>3</strong>
+          <span>Research Areas</span>
+        </div>
+        <div class="stat">
+          <strong>GXMU</strong>
+          <span>广西医科大学</span>
+        </div>
+      </section>
+
+      <section class="section section-muted research-overview" id="research" aria-labelledby="about-title">
+        <div class="section-inner reference-grid">
+          <div class="reference-copy">
+            <div class="reference-heading">
+              <span>01</span>
+              <h2 id="about-title">Our Research</h2>
+            </div>
+            <p>
+              MARS 依托广西医科大学，围绕人工智能辅助医学成像、医学影像智能分析和临床转化系统开展研究。
+              团队关注基础 AI 模型在真实医学场景中的开发、验证与落地，推进肿瘤、多疾病分级、医学图像分割和智能辅助诊断等方向的交叉研究。
+            </p>
+            <ul class="research-bullets">
+              <li>医学影像分析与多中心泛化</li>
+              <li>多模态医学 AI 与临床决策支持</li>
+              <li>基础模型、自监督学习与智能医学系统</li>
+            </ul>
+            <a class="pill-link" href="research.html">More Information</a>
+          </div>
+          <figure class="reference-image">
+            <img src="assets/hero-medai-lab.png" alt="医学影像智能分析与人工智能模型示意图" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section research-themes" aria-labelledby="research-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Research</p>
+            <h2 id="research-title">研究方向</h2>
+          </div>
+          <div class="research-grid research-grid-three">
+            <article class="research-card">
+              <span class="card-index">01</span>
+              <h3>基础 AI 模型</h3>
+              <p>
+                研究多模态大模型与视觉语言模型，关注复杂开放环境中的场景理解、逻辑推理、自主任务分解、可信性、安全性与效率。
+              </p>
+            </article>
+            <article class="research-card">
+              <span class="card-index">02</span>
+              <h3>计算机视觉</h3>
+              <p>
+                以生成与编辑为驱动，探索 Diffusion Models、Transformers 以及文本、图像、视频跨模态生成中的细粒度控制与语义一致性。
+              </p>
+            </article>
+            <article class="research-card">
+              <span class="card-index">03</span>
+              <h3>医学影像分析</h3>
+              <p>
+                面向医学影像 AI 临床转化，研究病灶检测与分割、少样本学习、域适应、不确定性量化，以及多中心验证下的诊疗辅助系统。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-showcase" aria-labelledby="team-title">
+        <img src="assets/group-photo.jpg" alt="MARS 成员参加 MICS 2026 医学图像计算青年研讨会合影" />
+        <div class="team-overlay"></div>
+        <div class="team-content">
+          <div class="reference-heading reference-heading-light">
+            <span>02</span>
+            <h2 id="team-title">Meet The Team</h2>
+          </div>
+          <div class="team-metrics" aria-label="团队概览">
+            <div>
+              <strong>2024</strong>
+              <span>Founded</span>
+            </div>
+            <div>
+              <strong>19</strong>
+              <span>Publications</span>
+            </div>
+            <div>
+              <strong>3</strong>
+              <span>Research Areas</span>
+            </div>
+            <div>
+              <strong>GXMU</strong>
+              <span>Guangxi Medical University</span>
+            </div>
+          </div>
+          <a class="pill-link pill-link-light" href="people.html">More Information</a>
+        </div>
+      </section>
+
+      <section class="section" id="people" aria-labelledby="people-title">
+        <div class="section-inner">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="section-kicker">People</p>
+              <h2 id="people-title">团队成员</h2>
+              <p>
+                MARS 欢迎对基础模型、计算机视觉和医学影像分析感兴趣的硕士生、博士生与科研合作伙伴联系。
+              </p>
+            </div>
+            <a class="text-link" href="people.html">查看团队页面</a>
+          </div>
+
+          <div class="member-grid" aria-label="学生与研究人员">
+            <article class="member-card">
+              <div class="avatar">PhD</div>
+              <h3>博士生</h3>
+              <p>缪欣宇、梁永杰</p>
+            </article>
+            <article class="member-card">
+              <div class="avatar">MSc</div>
+              <h3>硕士生</h3>
+              <p>赵嘉琪、谢子健、黄镇婷</p>
+            </article>
+            <article class="member-card">
+              <div class="avatar">RA</div>
+              <h3>科研助理</h3>
+              <p>邱俊铼</p>
+            </article>
+            <article class="member-card">
+              <div class="avatar">Co</div>
+              <h3>合作伙伴</h3>
+              <p>欢迎临床、工程与产业合作，推进医学 AI 场景验证。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="publications" aria-labelledby="pub-title">
+        <div class="section-inner">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="section-kicker">Publications</p>
+              <h2 id="pub-title">代表性成果</h2>
+            </div>
+            <span class="paper-count">Featured Papers</span>
+          </div>
+
+          <article class="impact-panel">
+            <div>
+              <strong>19篇</strong>
+              <span>已整理的代表性论文与在研稿件</span>
+            </div>
+            <div>
+              <strong>Published</strong>
+              <span>覆盖医学影像分析、病理图像、眼底影像与多模态建模</span>
+            </div>
+            <div>
+              <strong>Preprint</strong>
+              <span>持续更新预印本、开源代码、数据集与引用信息</span>
+            </div>
+            <div>
+              <strong>Figures</strong>
+              <span>论文条目配套展示核心网络结构图</span>
+            </div>
+          </article>
+
+          <div class="paper-list paper-list-featured" aria-label="Featured papers">
+            <article class="paper-entry">
+              <time class="paper-date" datetime="2026-04">Apr, 2026</time>
+              <div class="paper-meta">
+                <strong class="paper-venue">IEEE ISBI 2026</strong>
+                <span class="paper-badge badge-conference">Conference</span>
+              </div>
+              <h3>
+                <a class="paper-title-link" href="https://doi.org/10.1109/ISBI61048.2026.11515805">LASAGNA-U-NET: Revisiting U-Shape Architecture for Histopathology Image Segmentation</a>
+              </h3>
+              <p class="paper-authors"><strong>Junlai Qiu</strong>, Yunzhu Chen, <strong>Jiaqi Zhao</strong>, Yawen Huang, Fubo Wang, <strong>Yuexiang Li<sup>*</sup></strong></p>
+              <a class="paper-figure-link" href="https://doi.org/10.1109/ISBI61048.2026.11515805" aria-label="打开 LASAGNA-U-NET 论文链接">
+                <picture>
+                  <source srcset="assets/paper-figures/docx/paper-figure-11.webp" type="image/webp" />
+                  <img src="assets/paper-figures/docx/paper-figure-11.jpg" alt="Lasagna-U-Net 架构图" loading="lazy" decoding="async" />
+                </picture>
+              </a>
+            </article>
+
+            <article class="paper-entry">
+              <time class="paper-date" datetime="2025-09">Sep, 2025</time>
+              <div class="paper-meta">
+                <strong class="paper-venue">IEEE Transactions on Medical Imaging</strong>
+                <span class="paper-badge badge-journal">Journal</span>
+              </div>
+              <h3>
+                <a class="paper-title-link" href="https://doi.org/10.1109/TMI.2025.3612188">MUSCLE: A New Perspective to Multi-scale Fusion for Medical Image Classification based on the Theory of Evidence</a>
+              </h3>
+              <p class="paper-authors"><strong>Junlai Qiu</strong>, Junyue Cao, Yawen Huang, Ziwei Zhu, Fubo Wang, Cheng Lu, <strong>Yuexiang Li<sup>*</sup></strong>, Yefeng Zheng</p>
+              <a class="paper-figure-link" href="https://doi.org/10.1109/TMI.2025.3612188" aria-label="打开 MUSCLE 论文链接">
+                <picture>
+                  <source srcset="assets/paper-figures/docx/paper-figure-10.webp" type="image/webp" />
+                  <img src="assets/paper-figures/docx/paper-figure-10.jpg" alt="MUSCLE 多尺度学习架构图" loading="lazy" decoding="async" />
+                </picture>
+              </a>
+            </article>
+
+            <article class="paper-entry">
+              <time class="paper-date" datetime="2024-11">Nov, 2024</time>
+              <div class="paper-meta">
+                <strong class="paper-venue">IEEE Journal of Biomedical and Health Informatics</strong>
+                <span class="paper-badge badge-journal">Journal</span>
+              </div>
+              <h3>
+                <a class="paper-title-link" href="https://doi.org/10.1109/JBHI.2024.3360720">Cross-Modal Vertical Federated Learning for MRI Reconstruction</a>
+              </h3>
+              <p class="paper-authors">Yunlu Yan, Hong Wang, Yawen Huang, Nanjun He, Lei Zhu, Yong Xu, <strong>Yuexiang Li<sup>*</sup></strong>, Yefeng Zheng</p>
+              <a class="paper-figure-link" href="https://doi.org/10.1109/JBHI.2024.3360720" aria-label="打开 Cross-Modal Vertical Federated Learning 论文链接">
+                <picture>
+                  <source srcset="assets/paper-figures/docx/paper-figure-02.webp" type="image/webp" />
+                  <img src="assets/paper-figures/docx/paper-figure-02.jpg" alt="Cross-modal vertical federated learning 架构图" loading="lazy" decoding="async" />
+                </picture>
+              </a>
+            </article>
+
+            <article class="paper-entry">
+              <time class="paper-date" datetime="2025-10">Oct, 2025</time>
+              <div class="paper-meta">
+                <strong class="paper-venue">arXiv</strong>
+                <span class="paper-badge badge-arxiv">arXiv Preprint</span>
+              </div>
+              <h3>
+                <a class="paper-title-link" href="https://arxiv.org/abs/2510.26315" target="_blank" rel="noreferrer">A Hybrid Framework Bridging CNN and ViT based on Theory of Evidence for Diabetic Retinopathy Grading</a>
+              </h3>
+              <p class="paper-authors"><strong>Junlai Qiu</strong>, Yunzhu Chen, Hao Zheng, Yawen Huang, <strong>Yuexiang Li<sup>*</sup></strong></p>
+              <a class="paper-figure-link" href="https://arxiv.org/abs/2510.26315" target="_blank" rel="noreferrer" aria-label="打开 Hybrid CNN and ViT 论文链接">
+                <picture>
+                  <source srcset="assets/paper-figures/docx/paper-figure-12.webp" type="image/webp" />
+                  <img src="assets/paper-figures/docx/paper-figure-12.jpg" alt="Hybrid CNN and ViT evidence framework 架构图" loading="lazy" decoding="async" />
+                </picture>
+              </a>
+            </article>
+          </div>
+
+          <div class="publication-cta">
+            <p><sup>*</sup> Corresponding author. 完整论文列表包含已发表论文、预印本与在审稿件，并提供 DOI / arXiv 链接、BibTeX、代码 / 数据集状态与引用信息。</p>
+            <a class="pill-link" href="publications.html">View All Publications</a>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="section-kicker">Projects</p>
+              <h2 id="projects-title">代表性科研项目</h2>
+            </div>
+            <a class="text-link" href="join.html">近期招生</a>
+          </div>
+
+          <div class="project-list">
+            <article class="project-item">
+              <time>Ongoing</time>
+              <div>
+                <h3>医学影像智能分析平台</h3>
+                <p>围绕医学图像分割、检测、分类和疾病分级任务，建设可复现实验流程与临床验证工具链。</p>
+              </div>
+            </article>
+            <article class="project-item">
+              <time>Ongoing</time>
+              <div>
+                <h3>多模态医学 AI 与临床决策支持</h3>
+                <p>融合影像、文本与结构化临床数据，探索面向诊断、疗效评估和随访管理的智能辅助方法。</p>
+              </div>
+            </article>
+            <article class="project-item">
+              <time>Ongoing</time>
+              <div>
+                <h3>多中心泛化与可信部署</h3>
+                <p>研究域适应、自监督学习、不确定性估计与模型鲁棒性，提升医学 AI 在真实场景中的可用性。</p>
+              </div>
+            </article>
+            <article class="project-item">
+              <time>Collaboration</time>
+              <div>
+                <h3>临床与工程联合转化</h3>
+                <p>欢迎临床科室、工程团队与产业伙伴围绕数据治理、算法评测和系统落地开展合作。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="news" aria-labelledby="news-title">
+        <div class="section-inner">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="section-kicker">News</p>
+              <h2 id="news-title">新闻动态</h2>
+            </div>
+            <a class="text-link" href="publications.html">查看成果</a>
+          </div>
+
+          <div class="news-layout">
+            <article class="news-card news-featured">
+              <img src="assets/group-photo.jpg" alt="MARS 成员参加 MICS 2026 医学图像计算青年研讨会合影" />
+              <div>
+                <time datetime="2026">2026</time>
+                <h3>MARS 参加 MICS 2026 医学图像计算青年研讨会</h3>
+                <p>课题组成员围绕医学图像计算、医学影像智能分析和临床场景转化开展交流。</p>
+              </div>
+            </article>
+
+            <div class="news-list">
+              <article class="news-card">
+                <time datetime="2025">2025</time>
+                <h3>深度之眼课程页面上线医学影像 AI 专题</h3>
+                <p>课程页面可作为团队对外学术交流与科研训练活动入口。</p>
+                <a href="https://edu.csdn.net/huiyiCourse/detail/1102" target="_blank" rel="noreferrer">查看页面</a>
+              </article>
+              <article class="news-card">
+                <time datetime="2026">Award</time>
+                <h3>第十一届全国大学生生物医学工程创新设计竞赛二等奖</h3>
+                <p>“心晴卫士”多模态 AI 项目获第十一届全国大学生生物医学工程创新设计竞赛二等奖，证书图片已收录展示。</p>
+                <a href="assets/xinqing-certificate-preview.jpg" target="_blank" rel="noreferrer">查看证书图片</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-join" id="join" aria-labelledby="join-title">
+        <div class="section-inner join-contact-stack">
+          <div class="join-grid">
+            <div>
+              <p class="section-kicker">Join &amp; Contact</p>
+              <h2 id="join-title">加入我们 / 联系我们</h2>
+              <p>
+                基础 AI 模型、计算机视觉、医学影像分析三个方向均招收硕士生和博士生。
+                欢迎具有机器学习、深度学习、医学影像处理、数据平台或跨学科研究背景的同学，以及临床、工程与产业合作伙伴联系咨询。
+              </p>
+              <div class="detail-actions"><a class="button button-primary" href="mailto:mars_gxmu@qun.mail.163.com?subject=MARS%20Joining%20Inquiry">发送邮件</a></div>
+            </div>
+            <div class="join-list">
+              <div>
+                <strong>基础 AI 模型</strong>
+                <span>多模态大模型、视觉语言模型、可信与高效推理</span>
+              </div>
+              <div>
+                <strong>计算机视觉</strong>
+                <span>生成式模型、图像视频编辑、跨模态语义生成</span>
+              </div>
+              <div>
+                <strong>医学影像分析</strong>
+                <span>检测分割、域适应、少样本学习、多中心临床验证</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card-grid contact-card-grid contact-card-grid-on-dark">
+            <article class="detail-card contact-email-card"><span>Email</span><h3>课题组邮箱</h3><p><a class="text-link contact-email-link" href="mailto:mars_gxmu@qun.mail.163.com">mars_gxmu@qun.mail.163.com</a></p></article>
+            <article class="detail-card"><span>Address</span><h3>地址</h3><p>广西医科大学，广西南宁双拥路22号</p></article>
+            <article class="detail-card"><span>Lab Office</span><h3>课题组办公室</h3><p>广西医科大学科技楼6楼609</p></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-inner">
+        <div>
+          <strong>MARS</strong>
+          <p>广西医科大学</p>
+        </div>
+        <address>
+          地址：广西医科大学广西南宁双拥路22号<br />
+          邮箱：<a href="mailto:mars_gxmu@qun.mail.163.com">mars_gxmu@qun.mail.163.com</a><br />
+          课题组办公室：广西医科大学科技楼6楼609
+        </address>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" data-back-to-top aria-label="返回顶部">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
